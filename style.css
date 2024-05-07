@@ -1,0 +1,64 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background: #1B1A1A;
+  margin: 0;
+}
+
+header{
+  background: black;
+  height: 100px;
+  margin: 0%;
+  display: flex;
+  justify-content: center;
+}
+#headTxt{
+  font-size: 1.4em;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 24px;
+}
+#logo{
+  transform: scale(0.8) translateX(10px);
+}
+
+.selected{
+  border: 2px solid white;
+  background: #09AE1C;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
+button{
+  font-size: 1.4em;
+  padding: 10px;
+  border-radius: 10px;
+  background: black;
+  border: 1px solid #3D3D3D;
+  color: white;
+  margin: 7px;
+}
+.icon{
+  width: 8%;
+  height: 8%;
+}
+
+#generate{
+  font-size: 1.4em;
+  padding: 10px;
+  border-radius: 10px;
+  background: #098317;
+  color: white;
+  margin-top: 48px;
+  width: 320px;
+  transform: scale(1.1);
+}
+#generate:hover{
+  background: #056210;
+}
+
+@keyframes popping{
+  50% {
+    transform: scale(0.98);
+  }
+}
+.popping{
+  animation: popping 3s infinite;
+}
